@@ -1,0 +1,64 @@
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.add-trash-button {
+    padding: 8px;
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modify-button,
+.delete-button,
+.close-modal-button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.modify-button {
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+}
+
+.delete-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+}
+
+.close-modal-button {
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
